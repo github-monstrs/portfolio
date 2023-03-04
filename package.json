@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "firebase": "^9.17.2",
     "three": "^0.150.1",
     "threejs-object-controls": "^1.2.8"
   }
