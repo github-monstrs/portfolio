@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://cdnjs.cloudflare.com/ajax/libs/three.js/0.150.1/three.module.js",
+                "ObjectControls": "/node_modules/threejs-object-controls/ObjectControls.js"
+            }
+        }
+    </script>
+    <title>Jēkabs Zorgenfreijs</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#">Your Logo</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <canvas id="c"></canvas>
+        <script type="module" src="js/hero.js"></script>
+    </section>
+
+    <div class="main">
+        <div class="myH2">
+            This is text is to test scroll functionality
+        </div>
+        <div class="myP">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias quasi tempora quia repellat eos inventore, fugit eum veniam quos debitis nostrum ea, cumque delectus aliquid perferendis nihil hic rem voluptatum? Optio aut asperiores sit distinctio alias earum magni molestias corrupti ipsa autem provident cupiditate, quos est dolorem sint. Nostrum, totam. Omnis neque doloremque provident quibusdam. Quam delectus non, odit libero labore porro molestias laboriosam quo quasi assumenda nulla at repudiandae. Perspiciatis corporis odit, nemo blanditiis ratione officiis voluptatibus unde aspernatur possimus aut dolores voluptatem! Adipisci ex praesentium molestias nulla! In fugiat alias molestias commodi cupiditate voluptas nesciunt ipsa corrupti inventore.
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script type="script" src="js/scripts.js"></script>
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+</body>
+</html>

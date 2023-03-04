@@ -1,0 +1,11 @@
+Model Information:
+* title:	Aston Martin DB5
+* source:	https://sketchfab.com/3d-models/aston-martin-db5-bf1fe23e1578417ab11db67dc89fbe32
+* author:	AngryBearr (https://sketchfab.com/AngryBearr)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Aston Martin DB5" (https://sketchfab.com/3d-models/aston-martin-db5-bf1fe23e1578417ab11db67dc89fbe32) by AngryBearr (https://sketchfab.com/AngryBearr) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
